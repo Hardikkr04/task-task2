@@ -1,0 +1,87 @@
+.background{
+    background: #78caa4;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+    display: flex;
+}
+.heading{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    margin: 30px;
+    color: #000000;
+    flex:1;
+}
+.login{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  float: right;
+  color: #000000;
+  margin: 38px;
+  cursor: pointer;
+}
+
+
+input[type=text],textarea,input[type=number],input[type=password]{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+textarea{
+    resize: none !important;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+}
+.errorClass{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color:  #CC1414;    
+} 
+.main_container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 40px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.button {
+  background-color: #78caa4;
+  border: none;
+  color: #000000;
+  padding: 15px 46px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 25px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 20px;
+}
+
+
+
+
